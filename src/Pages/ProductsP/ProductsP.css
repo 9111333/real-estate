@@ -1,0 +1,67 @@
+
+.text-center.gsap-col{
+    display: flex;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.gsap-child{
+    margin: 0 auto;
+}
+
+.menuP-holder{
+    position: relative;
+    width: 100%;
+    top: 10vh;
+}
+
+.menuP-holder .back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.menuP-holder .back p{
+    font-family: 'kalame';
+    font-weight: bold;
+}
+
+.about-footer{
+    margin-top: 50vh;
+}
+.dg-footer{
+    height: 14vh;
+    width: 100%;
+    background-color: #264d20;
+}
+
+.dg-footer .developer{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 3%;
+    padding-right: 1%;
+}
+
+.dg-footer .developer p{
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+    
+
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    
+    .text-center.gsap-col:nth-child(2n+1){
+        margin-left: 20%;
+    }
+    .text-center.gsap-col:last-child{
+        margin-right: 28%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .text-center.gsap-col{
+        margin-bottom: 5% !important;
+    }
+}

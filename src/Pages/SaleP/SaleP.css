@@ -1,0 +1,68 @@
+.text,
+.text2 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px 25px;
+  width: max-content;
+  border-radius: 40px;
+  opacity: 0;
+  font-family: "kalame";
+}
+
+.text-center {
+  margin-top: 22vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  z-index: 2;
+}
+
+.line--top {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 10px;
+}
+.line--right {
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 0;
+}
+.line--bottom {
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 10px;
+}
+.line--left {
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 0;
+}
+
+.mask {
+  position: absolute;
+  inset: 0;
+  background-color: #fff;
+  z-index: -1;
+  min-height: 100vh;
+  background-image: url("../../../public/images/home1.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

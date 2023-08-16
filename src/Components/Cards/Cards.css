@@ -1,0 +1,19 @@
+.css-1qbkelo-MuiCardHeader-content{
+    margin-right: 5%;
+}
+.css-et1ao3-MuiTypography-root{
+    font-family: 'kalame' !important;
+}
+.css-83ijpv-MuiTypography-root{
+    font-family: 'kalame' !important;
+}
+.css-r40f8v-MuiTypography-root{
+    font-family: 'kalame' !important;
+}
+.css-o69gx8-MuiCardMedia-root{
+    transition: all ease 0.5s;
+}
+.css-o69gx8-MuiCardMedia-root:hover{
+    filter: brightness(0.7);
+    transition: all ease 0.5s;
+}

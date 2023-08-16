@@ -1,0 +1,19 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: kalame;
+    src: url(./Fonts/Kalameh-Medium.ttf);
+}
+
+/* :root {
+
+} */
+
+body {
+    display: flex;
+    direction: rtl;
+}
+
+*, body, html {
+    font-family: kalame;
+}
